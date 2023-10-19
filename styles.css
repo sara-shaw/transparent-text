@@ -1,0 +1,30 @@
+h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -300%);
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: rgb(17, 17, 17);
+  padding: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* This line is added to prevent scrollbars */
+}
+
+img {
+  width: 100%;
+}
+
+.bottom {
+  background-color: rgb(17, 17, 17);
+  height: 800px;
+}
