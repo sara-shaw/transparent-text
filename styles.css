@@ -2,26 +2,28 @@ h2 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -300%);
+  transform: translate(-50%, -170%);
   text-align: center;
   color: white;
   font-size: 3rem;
   font-weight: bold;
   background-color: rgb(17, 17, 17);
-  padding: 20px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
+  mix-blend-mode: multiply;
 }
 
 body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* This line is added to prevent scrollbars */
+  font-family: "Lato";
 }
 
 img {
   width: 100%;
+  display: block;
 }
 
 .bottom {
